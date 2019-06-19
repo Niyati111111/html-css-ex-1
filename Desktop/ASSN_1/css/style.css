@@ -1,0 +1,149 @@
+#logo {
+    margin-left: 30px;
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 10px;
+    
+}
+
+#logo2 {
+  margin-left: 30px;
+  width: 120px;
+  height: 120px;
+  margin-top: 20px;
+  
+
+}
+
+
+
+header {
+    background: beige;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+}
+
+.options {
+      list-style: none;
+      display: inline-flex;
+      
+  }
+
+  li {
+   
+    margin-right: 20px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 50px;
+    left: 700px;
+    right: 400px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .options li:hover {
+    color: purple;
+  }
+  
+  #title{
+    position: relative;
+    bottom: 150px;
+    left: 250px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    width: 600px;
+
+  }
+  
+.parallax-container {
+ 
+  background-image: url("../img/pet3.jpg"); 
+  height: 500px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+    
+}
+
+#hero{
+  width: 100%;
+}
+
+
+
+@media only screen and (max-device-width: 1366px) {
+  .parallax-container .parallax-container2 {
+    background-attachment: scroll;
+  }
+}
+
+.hero-section {
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+.container {
+  display: inline-flex;
+  width: 1500px;
+  height: 500px;
+}
+
+.item {
+  width: 400px;
+  height: 400px;
+  padding-right: 30px;
+  padding-left: 50px;
+}
+
+footer{
+  background-color: beige;
+  height: 200px;
+  
+ 
+}
+
+#contact_info {
+  float: right;
+  line-height: 1px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#footer_quote {
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: relative;
+  bottom: 80px;
+  left: 40px;
+}
+
+body{
+  margin:0;
+}
+
+#container_text {
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#fb, #twt {
+  width: 50px;
+  height: 50px;
+}
+
+#twt {
+  margin-left: 10px;
+}
